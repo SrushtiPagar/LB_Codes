@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //  Function Name:  RangeDisplayAddition
-//  Description:    A Program to Display addition of even numbers between range
+//  Description:    A Program to Display addition of numbers between range
 //  Input:          int
 //  Output:         int
 //  Author:         Srushti Nitin pagar 
@@ -25,7 +25,7 @@ void RangeDisplayAddition(int iStart, int iEnd)
 
 //////////////////////////////////////////////////////////////////////////////////////////
 // 
-// Write a program which accepts start and end point from user and display addition of all the even numbers between that range.
+// Write a program which accepts start and end point from user and display addition of all the numbers between that range.
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
