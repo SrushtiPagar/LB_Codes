@@ -23,7 +23,7 @@ void Range(int iStart, int iEnd)
 
 //////////////////////////////////////////////////////////////////////////////////////////
 // 
-// Write a program which accepts area in square feet and converts it into square meter. (1 square feet = 0.0929 Square Meter)
+// Write a program which accepts start and end point from user and display all the numbers between that range.
 //
 ///////////////////////////////////////////////////////////////////////////////////////////
 
