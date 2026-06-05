@@ -11,7 +11,7 @@
 //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-void Range(int iStart, int iEnd)
+void RangeDisplay(int iStart, int iEnd)
 {
     int iCnt = 0;
 
@@ -37,7 +37,7 @@ int main()
     printf("Enter End Point : \n");
     scanf("%d", &iValue2);
 
-    Range(iValue1, iValue2);
+    RangeDisplay(iValue1, iValue2);
     return 0;
 }
 /////////////////////////////////////////////////////////////////////////////////////
