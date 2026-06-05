@@ -18,13 +18,9 @@ void RangeDisplayAddition(int iStart, int iEnd)
 
     for(iCnt = iStart; iCnt <= iEnd; iCnt++)
     {
-        if(iCnt % 2 == 0)
-        {
-            printf("%d\n", iCnt);
             iSum += iCnt;
-        }
     }
-    printf("Addition of even numbers: %d\n", iSum);
+    printf("Addition of numbers: %d\n", iSum);
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -51,9 +47,7 @@ int main()
 //  Output :
 //  Enter Start Point : 5
 //  Enter End Point : 10
-//  6
-//  8
-//  10
+//  Addition numbers: 24
 //
 // Time complexity:O(n)
 //
