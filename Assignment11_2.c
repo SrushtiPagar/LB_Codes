@@ -2,7 +2,7 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  Function Name:  RangeDisplay
+//  Function Name:  RangeDisplayEven
 //  Description:    A Program to Display even numbers between range
 //  Input:          int
 //  Output:         int
@@ -11,7 +11,7 @@
 //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-void Range(int iStart, int iEnd)
+void RangeDisplayEven(int iStart, int iEnd)
 {
     int iCnt = 0;
 
@@ -40,7 +40,7 @@ int main()
     printf("Enter End Point : \n");
     scanf("%d", &iValue2);
 
-    Range(iValue1, iValue2);
+    RangeDisplayEven(iValue1, iValue2);
     return 0;
 }
 /////////////////////////////////////////////////////////////////////////////////////
